@@ -20,15 +20,17 @@ typedef enum operand : NSUInteger {
 
 
 @interface ViewController : UIViewController
-
+//storage of operands
 @property (retain, nonatomic) valueStorage* myValueStorage;
+//enum for calculations
 @property operand trigger;
-
+//properties for the labels
 @property (weak, nonatomic) IBOutlet UILabel *labelSign;
 @property (weak, nonatomic) IBOutlet UILabel *labelOperandOne;
 @property (weak, nonatomic) IBOutlet UILabel *labelOperandTwo;
 @property (weak, nonatomic) IBOutlet UITextField *labelInput;
 
+//actions to each number button
 - (IBAction)bOne:(id)sender;
 - (IBAction)bTwo:(id)sender;
 - (IBAction)bThree:(id)sender;
@@ -41,6 +43,7 @@ typedef enum operand : NSUInteger {
 - (IBAction)bZero:(id)sender;
 - (IBAction)bDecimal:(id)sender;
 
+//actions for each operator
 - (IBAction)bAdd:(id)sender;
 - (IBAction)bSubtract:(id)sender;
 - (IBAction)bMultiply:(id)sender;
@@ -50,9 +53,12 @@ typedef enum operand : NSUInteger {
 - (IBAction)bSquareRoot:(id)sender;
 - (IBAction)bClear:(id)sender;
 
+//setters for operands
 - (void)setOperandOne:(double)sender;
 - (void)setOperandTwo:(double)sender;
-- (void)appendToTextField:(NSString*)number;
+
+//appends to the textfield
+- (void)appendToTextField:(NSString*)sender;
 
 
 

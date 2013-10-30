@@ -73,6 +73,7 @@
     [self appendToTextField:@"."];
 
 }
+
 //when the button is hit, the appropriate calculation is done
 - (IBAction)bAdd:(id)sender {
     [self setOperandOne: [self.labelInput.text doubleValue]];
@@ -156,7 +157,6 @@
     self.labelSign.hidden = YES;
     self.labelOperandOne.hidden = YES;
     self.labelOperandTwo.hidden = YES;
-
 }
 
 - (void)setOperandOne:(double)sender {
@@ -171,8 +171,8 @@
 
     
 }
-- (void)appendToTextField:(NSString*)number {
-    self.labelInput.text = [NSString stringWithFormat:@"%@%@",self.labelInput.text, number];
+- (void)appendToTextField:(NSString*)sender {
+    self.labelInput.text = [NSString stringWithFormat:@"%@%@",self.labelInput.text, sender];
 }
 
 

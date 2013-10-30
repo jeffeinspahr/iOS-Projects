@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface valueStorage : NSObject
+//storage of operands
 @property (retain) NSNumber* operandOne;
 @property (retain) NSNumber* operandTwo;
 
+//calculations for operands
 -(double)add;
 -(double)subtract;
 -(double)multiply;
