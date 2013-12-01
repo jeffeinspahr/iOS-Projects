@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "843EB9251821A0BD0010AA6D"
-               BuildableName = "LATransit.app"
+               BuildableName = "MassTransit.app"
                BlueprintName = "LATransit"
                ReferencedContainer = "container:LATransit.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "843EB9251821A0BD0010AA6D"
-            BuildableName = "LATransit.app"
+            BuildableName = "MassTransit.app"
             BlueprintName = "LATransit"
             ReferencedContainer = "container:LATransit.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "843EB9251821A0BD0010AA6D"
-            BuildableName = "LATransit.app"
+            BuildableName = "MassTransit.app"
             BlueprintName = "LATransit"
             ReferencedContainer = "container:LATransit.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "843EB9251821A0BD0010AA6D"
-            BuildableName = "LATransit.app"
+            BuildableName = "MassTransit.app"
             BlueprintName = "LATransit"
             ReferencedContainer = "container:LATransit.xcodeproj">
          </BuildableReference>

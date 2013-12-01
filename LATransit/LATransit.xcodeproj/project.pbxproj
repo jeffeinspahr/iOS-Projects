@@ -17,8 +17,35 @@
 		843EB93E1821A0BD0010AA6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843EB93D1821A0BD0010AA6D /* Default@2x.png */; };
 		843EB9401821A0BD0010AA6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 843EB93F1821A0BD0010AA6D /* Default-568h@2x.png */; };
 		843EB9431821A0BD0010AA6D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843EB9411821A0BD0010AA6D /* MainStoryboard.storyboard */; };
-		843EB9461821A0BD0010AA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843EB9451821A0BD0010AA6D /* ViewController.m */; };
-		84B2F0271821A3D6004A4526 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2F0261821A3D6004A4526 /* ViewController2.m */; };
+		8469B6A0184AAE2800A55E30 /* MtaRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469B69F184AAE2800A55E30 /* MtaRouteViewController.m */; };
+		8469B6A3184AAF5C00A55E30 /* MtaStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469B6A2184AAF5C00A55E30 /* MtaStopViewController.m */; };
+		8469B6B3184AB74800A55E30 /* map-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469B6AD184AB74800A55E30 /* map-32.png */; };
+		8469B6BA184AB82800A55E30 /* bus-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469B6B9184AB82800A55E30 /* bus-32.png */; };
+		8469B6BC184AB84400A55E30 /* train-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 8469B6BB184AB84400A55E30 /* train-32.png */; };
+		84A2F3751835D0D100DB7B8A /* Metrolink.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A2F3731835D0D100DB7B8A /* Metrolink.sl3 */; };
+		84A2F3761835D0D100DB7B8A /* MTA.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A2F3741835D0D100DB7B8A /* MTA.sl3 */; };
+		84A9D0191837376A003B3E23 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D0181837376A003B3E23 /* libsqlite3.dylib */; };
+		84A9D01D183737B7003B3E23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D01C183737B7003B3E23 /* QuartzCore.framework */; };
+		84A9D0221837F6CC003B3E23 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D0211837F6CC003B3E23 /* Route.m */; };
+		84A9D0251837FA8C003B3E23 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D0241837FA8C003B3E23 /* Stop.m */; };
+		84A9D02818380008003B3E23 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D02718380007003B3E23 /* Trip.m */; };
+		84A9D02B183800DF003B3E23 /* StopTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D02A183800DF003B3E23 /* StopTimes.m */; };
+		84A9D02C18380247003B3E23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D01A183737A5003B3E23 /* CoreLocation.framework */; };
+		84A9D02E18380260003B3E23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A9D02D18380260003B3E23 /* MapKit.framework */; };
+		84A9D032183802C2003B3E23 /* GoogleSqlDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D031183802C2003B3E23 /* GoogleSqlDatabase.m */; };
+		84A9D03618381EA5003B3E23 /* MetrolinkRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D03518381EA4003B3E23 /* MetrolinkRouteViewController.m */; };
+		84A9D03918381F0F003B3E23 /* MetrolinkDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D03818381F0F003B3E23 /* MetrolinkDatabase.m */; };
+		84A9D03C18382CCD003B3E23 /* MtaDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D03B18382CCD003B3E23 /* MtaDatabase.m */; };
+		84AD3A1D1835E41D00A277DB /* sqlDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3A1C1835E41D00A277DB /* sqlDatabase.m */; };
+		84AD3A2018370D8E00A277DB /* metrolink_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3A1E18370D8E00A277DB /* metrolink_system_map.pdf */; };
+		84AD3A2118370D8E00A277DB /* mta_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3A1F18370D8E00A277DB /* mta_system_map.pdf */; };
+		84AD3A2818370F2D00A277DB /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3A2318370F2B00A277DB /* PDFScrollView.m */; };
+		84AD3A2918370F2D00A277DB /* PDFScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3A2518370F2C00A277DB /* PDFScrollViewController.m */; };
+		84AD3A2A18370F2D00A277DB /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3A2718370F2C00A277DB /* TiledPDFView.m */; };
+		84B73A361838530F0080C3CF /* MetrolinkStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B73A351838530F0080C3CF /* MetrolinkStopViewController.m */; };
+		84CF636D18371989002B6BE6 /* MetrolinkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF636C18371989002B6BE6 /* MetrolinkMapViewController.m */; };
+		84E40AFE1837303200044642 /* MtaMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E40AFD1837303200044642 /* MtaMapViewController.m */; };
+		84FD6A0718493C6400362CDE /* mapStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FD6A0618493C6400362CDE /* mapStopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +63,53 @@
 		843EB93D1821A0BD0010AA6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		843EB93F1821A0BD0010AA6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		843EB9421821A0BD0010AA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		843EB9441821A0BD0010AA6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		843EB9451821A0BD0010AA6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84B2F0251821A3D6004A4526 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		84B2F0261821A3D6004A4526 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		8469B69E184AAE2800A55E30 /* MtaRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtaRouteViewController.h; sourceTree = "<group>"; };
+		8469B69F184AAE2800A55E30 /* MtaRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtaRouteViewController.m; sourceTree = "<group>"; };
+		8469B6A1184AAF5C00A55E30 /* MtaStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtaStopViewController.h; sourceTree = "<group>"; };
+		8469B6A2184AAF5C00A55E30 /* MtaStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtaStopViewController.m; sourceTree = "<group>"; };
+		8469B6AD184AB74800A55E30 /* map-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-32.png"; sourceTree = "<group>"; };
+		8469B6B9184AB82800A55E30 /* bus-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bus-32.png"; sourceTree = "<group>"; };
+		8469B6BB184AB84400A55E30 /* train-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "train-32.png"; sourceTree = "<group>"; };
+		84A2F3731835D0D100DB7B8A /* Metrolink.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Metrolink.sl3; sourceTree = "<group>"; };
+		84A2F3741835D0D100DB7B8A /* MTA.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MTA.sl3; sourceTree = "<group>"; };
+		84A9D0181837376A003B3E23 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		84A9D01A183737A5003B3E23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84A9D01C183737B7003B3E23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		84A9D0201837F6CC003B3E23 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		84A9D0211837F6CC003B3E23 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
+		84A9D0231837FA8C003B3E23 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		84A9D0241837FA8C003B3E23 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		84A9D02618380007003B3E23 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		84A9D02718380007003B3E23 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		84A9D029183800DE003B3E23 /* StopTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopTimes.h; sourceTree = "<group>"; };
+		84A9D02A183800DF003B3E23 /* StopTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopTimes.m; sourceTree = "<group>"; };
+		84A9D02D18380260003B3E23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84A9D030183802C1003B3E23 /* GoogleSqlDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSqlDatabase.h; sourceTree = "<group>"; };
+		84A9D031183802C2003B3E23 /* GoogleSqlDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleSqlDatabase.m; sourceTree = "<group>"; };
+		84A9D03418381EA4003B3E23 /* MetrolinkRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkRouteViewController.h; sourceTree = "<group>"; };
+		84A9D03518381EA4003B3E23 /* MetrolinkRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkRouteViewController.m; sourceTree = "<group>"; };
+		84A9D03718381F0F003B3E23 /* MetrolinkDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkDatabase.h; sourceTree = "<group>"; };
+		84A9D03818381F0F003B3E23 /* MetrolinkDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkDatabase.m; sourceTree = "<group>"; };
+		84A9D03A18382CCD003B3E23 /* MtaDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtaDatabase.h; sourceTree = "<group>"; };
+		84A9D03B18382CCD003B3E23 /* MtaDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtaDatabase.m; sourceTree = "<group>"; };
+		84AD3A1B1835E41D00A277DB /* sqlDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlDatabase.h; sourceTree = "<group>"; };
+		84AD3A1C1835E41D00A277DB /* sqlDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sqlDatabase.m; sourceTree = "<group>"; };
+		84AD3A1E18370D8E00A277DB /* metrolink_system_map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = metrolink_system_map.pdf; sourceTree = "<group>"; };
+		84AD3A1F18370D8E00A277DB /* mta_system_map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mta_system_map.pdf; sourceTree = "<group>"; };
+		84AD3A2218370F2B00A277DB /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		84AD3A2318370F2B00A277DB /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		84AD3A2418370F2C00A277DB /* PDFScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollViewController.h; sourceTree = "<group>"; };
+		84AD3A2518370F2C00A277DB /* PDFScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollViewController.m; sourceTree = "<group>"; };
+		84AD3A2618370F2C00A277DB /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		84AD3A2718370F2C00A277DB /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		84B73A341838530F0080C3CF /* MetrolinkStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkStopViewController.h; sourceTree = "<group>"; };
+		84B73A351838530F0080C3CF /* MetrolinkStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkStopViewController.m; sourceTree = "<group>"; };
+		84CF636B18371989002B6BE6 /* MetrolinkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetrolinkMapViewController.h; sourceTree = "<group>"; };
+		84CF636C18371989002B6BE6 /* MetrolinkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkMapViewController.m; sourceTree = "<group>"; };
+		84E40AFC1837303200044642 /* MtaMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtaMapViewController.h; sourceTree = "<group>"; };
+		84E40AFD1837303200044642 /* MtaMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtaMapViewController.m; sourceTree = "<group>"; };
+		84FD6A0518493C6400362CDE /* mapStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapStopViewController.h; sourceTree = "<group>"; };
+		84FD6A0618493C6400362CDE /* mapStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapStopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +117,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A9D02E18380260003B3E23 /* MapKit.framework in Frameworks */,
+				84A9D02C18380247003B3E23 /* CoreLocation.framework in Frameworks */,
+				84A9D01D183737B7003B3E23 /* QuartzCore.framework in Frameworks */,
+				84A9D0191837376A003B3E23 /* libsqlite3.dylib in Frameworks */,
 				843EB92A1821A0BD0010AA6D /* UIKit.framework in Frameworks */,
 				843EB92C1821A0BD0010AA6D /* Foundation.framework in Frameworks */,
 				843EB92E1821A0BD0010AA6D /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +150,10 @@
 		843EB9281821A0BD0010AA6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84A9D02D18380260003B3E23 /* MapKit.framework */,
+				84A9D01C183737B7003B3E23 /* QuartzCore.framework */,
+				84A9D01A183737A5003B3E23 /* CoreLocation.framework */,
+				84A9D0181837376A003B3E23 /* libsqlite3.dylib */,
 				843EB9291821A0BD0010AA6D /* UIKit.framework */,
 				843EB92B1821A0BD0010AA6D /* Foundation.framework */,
 				843EB92D1821A0BD0010AA6D /* CoreGraphics.framework */,
@@ -86,14 +164,17 @@
 		843EB92F1821A0BD0010AA6D /* LATransit */ = {
 			isa = PBXGroup;
 			children = (
-				84B2F0251821A3D6004A4526 /* ViewController2.h */,
-				84B2F0261821A3D6004A4526 /* ViewController2.m */,
+				84A9D033183802CC003B3E23 /* sql Databases */,
+				84A9D02F18380266003B3E23 /* Google Models */,
+				843EB9301821A0BD0010AA6D /* Supporting Files */,
+				84A9D01F1837F5BB003B3E23 /* Map */,
+				8469B69D184AADBB00A55E30 /* Metrolink */,
+				8469B6A4184AB28900A55E30 /* MTA */,
 				843EB9381821A0BD0010AA6D /* AppDelegate.h */,
 				843EB9391821A0BD0010AA6D /* AppDelegate.m */,
 				843EB9411821A0BD0010AA6D /* MainStoryboard.storyboard */,
-				843EB9441821A0BD0010AA6D /* ViewController.h */,
-				843EB9451821A0BD0010AA6D /* ViewController.m */,
-				843EB9301821A0BD0010AA6D /* Supporting Files */,
+				84FD6A0518493C6400362CDE /* mapStopViewController.h */,
+				84FD6A0618493C6400362CDE /* mapStopViewController.m */,
 			);
 			path = LATransit;
 			sourceTree = "<group>";
@@ -101,15 +182,99 @@
 		843EB9301821A0BD0010AA6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84A2F3731835D0D100DB7B8A /* Metrolink.sl3 */,
+				84A2F3741835D0D100DB7B8A /* MTA.sl3 */,
+				84AD3A1E18370D8E00A277DB /* metrolink_system_map.pdf */,
+				84AD3A1F18370D8E00A277DB /* mta_system_map.pdf */,
 				843EB9311821A0BD0010AA6D /* LATransit-Info.plist */,
 				843EB9321821A0BD0010AA6D /* InfoPlist.strings */,
 				843EB9351821A0BD0010AA6D /* main.m */,
 				843EB9371821A0BD0010AA6D /* LATransit-Prefix.pch */,
 				843EB93B1821A0BD0010AA6D /* Default.png */,
+				8469B6BB184AB84400A55E30 /* train-32.png */,
+				8469B6B9184AB82800A55E30 /* bus-32.png */,
+				8469B6AD184AB74800A55E30 /* map-32.png */,
 				843EB93D1821A0BD0010AA6D /* Default@2x.png */,
 				843EB93F1821A0BD0010AA6D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8469B69D184AADBB00A55E30 /* Metrolink */ = {
+			isa = PBXGroup;
+			children = (
+				84A9D03418381EA4003B3E23 /* MetrolinkRouteViewController.h */,
+				84A9D03518381EA4003B3E23 /* MetrolinkRouteViewController.m */,
+				84B73A341838530F0080C3CF /* MetrolinkStopViewController.h */,
+				84B73A351838530F0080C3CF /* MetrolinkStopViewController.m */,
+			);
+			name = Metrolink;
+			sourceTree = "<group>";
+		};
+		8469B6A4184AB28900A55E30 /* MTA */ = {
+			isa = PBXGroup;
+			children = (
+				8469B69E184AAE2800A55E30 /* MtaRouteViewController.h */,
+				8469B69F184AAE2800A55E30 /* MtaRouteViewController.m */,
+				8469B6A1184AAF5C00A55E30 /* MtaStopViewController.h */,
+				8469B6A2184AAF5C00A55E30 /* MtaStopViewController.m */,
+			);
+			name = MTA;
+			sourceTree = "<group>";
+		};
+		84A9D01E18373F61003B3E23 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3A2218370F2B00A277DB /* PDFScrollView.h */,
+				84AD3A2318370F2B00A277DB /* PDFScrollView.m */,
+				84AD3A2418370F2C00A277DB /* PDFScrollViewController.h */,
+				84AD3A2518370F2C00A277DB /* PDFScrollViewController.m */,
+				84AD3A2618370F2C00A277DB /* TiledPDFView.h */,
+				84AD3A2718370F2C00A277DB /* TiledPDFView.m */,
+			);
+			name = PDF;
+			sourceTree = "<group>";
+		};
+		84A9D01F1837F5BB003B3E23 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				84CF636B18371989002B6BE6 /* MetrolinkMapViewController.h */,
+				84CF636C18371989002B6BE6 /* MetrolinkMapViewController.m */,
+				84E40AFC1837303200044642 /* MtaMapViewController.h */,
+				84E40AFD1837303200044642 /* MtaMapViewController.m */,
+				84A9D01E18373F61003B3E23 /* PDF */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		84A9D02F18380266003B3E23 /* Google Models */ = {
+			isa = PBXGroup;
+			children = (
+				84A9D0201837F6CC003B3E23 /* Route.h */,
+				84A9D0211837F6CC003B3E23 /* Route.m */,
+				84A9D0231837FA8C003B3E23 /* Stop.h */,
+				84A9D0241837FA8C003B3E23 /* Stop.m */,
+				84A9D02618380007003B3E23 /* Trip.h */,
+				84A9D02718380007003B3E23 /* Trip.m */,
+				84A9D029183800DE003B3E23 /* StopTimes.h */,
+				84A9D02A183800DF003B3E23 /* StopTimes.m */,
+			);
+			name = "Google Models";
+			sourceTree = "<group>";
+		};
+		84A9D033183802CC003B3E23 /* sql Databases */ = {
+			isa = PBXGroup;
+			children = (
+				84AD3A1B1835E41D00A277DB /* sqlDatabase.h */,
+				84AD3A1C1835E41D00A277DB /* sqlDatabase.m */,
+				84A9D030183802C1003B3E23 /* GoogleSqlDatabase.h */,
+				84A9D031183802C2003B3E23 /* GoogleSqlDatabase.m */,
+				84A9D03718381F0F003B3E23 /* MetrolinkDatabase.h */,
+				84A9D03818381F0F003B3E23 /* MetrolinkDatabase.m */,
+				84A9D03A18382CCD003B3E23 /* MtaDatabase.h */,
+				84A9D03B18382CCD003B3E23 /* MtaDatabase.m */,
+			);
+			name = "sql Databases";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				843EB9341821A0BD0010AA6D /* InfoPlist.strings in Resources */,
+				8469B6B3184AB74800A55E30 /* map-32.png in Resources */,
 				843EB93C1821A0BD0010AA6D /* Default.png in Resources */,
 				843EB93E1821A0BD0010AA6D /* Default@2x.png in Resources */,
 				843EB9401821A0BD0010AA6D /* Default-568h@2x.png in Resources */,
 				843EB9431821A0BD0010AA6D /* MainStoryboard.storyboard in Resources */,
+				8469B6BA184AB82800A55E30 /* bus-32.png in Resources */,
+				8469B6BC184AB84400A55E30 /* train-32.png in Resources */,
+				84A2F3751835D0D100DB7B8A /* Metrolink.sl3 in Resources */,
+				84A2F3761835D0D100DB7B8A /* MTA.sl3 in Resources */,
+				84AD3A2018370D8E00A277DB /* metrolink_system_map.pdf in Resources */,
+				84AD3A2118370D8E00A277DB /* mta_system_map.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,10 +350,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CF636D18371989002B6BE6 /* MetrolinkMapViewController.m in Sources */,
 				843EB9361821A0BD0010AA6D /* main.m in Sources */,
 				843EB93A1821A0BD0010AA6D /* AppDelegate.m in Sources */,
-				843EB9461821A0BD0010AA6D /* ViewController.m in Sources */,
-				84B2F0271821A3D6004A4526 /* ViewController2.m in Sources */,
+				84AD3A1D1835E41D00A277DB /* sqlDatabase.m in Sources */,
+				84AD3A2818370F2D00A277DB /* PDFScrollView.m in Sources */,
+				84AD3A2918370F2D00A277DB /* PDFScrollViewController.m in Sources */,
+				84AD3A2A18370F2D00A277DB /* TiledPDFView.m in Sources */,
+				84E40AFE1837303200044642 /* MtaMapViewController.m in Sources */,
+				84A9D0221837F6CC003B3E23 /* Route.m in Sources */,
+				84A9D0251837FA8C003B3E23 /* Stop.m in Sources */,
+				84A9D02818380008003B3E23 /* Trip.m in Sources */,
+				84A9D02B183800DF003B3E23 /* StopTimes.m in Sources */,
+				8469B6A0184AAE2800A55E30 /* MtaRouteViewController.m in Sources */,
+				84A9D032183802C2003B3E23 /* GoogleSqlDatabase.m in Sources */,
+				84A9D03618381EA5003B3E23 /* MetrolinkRouteViewController.m in Sources */,
+				84A9D03918381F0F003B3E23 /* MetrolinkDatabase.m in Sources */,
+				84A9D03C18382CCD003B3E23 /* MtaDatabase.m in Sources */,
+				8469B6A3184AAF5C00A55E30 /* MtaStopViewController.m in Sources */,
+				84B73A361838530F0080C3CF /* MetrolinkStopViewController.m in Sources */,
+				84FD6A0718493C6400362CDE /* mapStopViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +457,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LATransit/LATransit-Prefix.pch";
 				INFOPLIST_FILE = "LATransit/LATransit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = LATransit;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,7 +470,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LATransit/LATransit-Prefix.pch";
 				INFOPLIST_FILE = "LATransit/LATransit-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = LATransit;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
